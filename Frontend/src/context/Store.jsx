@@ -8,7 +8,7 @@ import React, {
 import axios from "axios";
 
 const StoreContext = createContext();
-const url = "http://localhost:5000";
+const url = "mern-app-url.vercel.app";
 
 export const StoreProvider = ({ children }) => {
   const [items, setItems] = useState([]);
